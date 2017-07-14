@@ -1,24 +1,292 @@
-.App {
-  text-align: center;
+.Container {
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.ClearFloat::before {
+    display: table;
+    content: "";
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.ClearFloat::after {
+    display: table;
+    content: "";
+    clear: both;
 }
 
-.App-intro {
-  font-size: large;
+/* .Navbar */
+.Navbar {
+    display: block;
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgba(0,179,213, 0.75);
+    color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Navbar .Container .Logo {
+    float: left;
+    margin: auto 0;
+}
+
+.Navbar .Container .Logo h2 {
+    margin: 0;
+    font-size: 2.45em;
+}
+
+.Navbar .Container .Logo h2 span {
+    color: #ccf2d2;
+}
+
+.Navbar .Container .NavbarRight {
+    height: 100%;
+    float: right;
+}
+
+.Navbar .Container .NavbarRight ul {
+    margin: 0;
+    padding: 11.5px 0;
+}
+
+.Navbar .Container .NavbarRight ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 30px;
+    letter-spacing: 0.4px;
+}
+
+.Navbar .Container .NavbarRight ul .Login {
+    margin-left: 55px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/* Header */
+.Header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 140px;
+    background-color: rgba(0,179,213, 0.75);
+    color: #fff;
+    position: relative;
+}
+
+.Header .Triangle_1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(182,182,182, 0.45);
+    position: absolute;
+    z-index: -1;
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.Header .Triangle_2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226,226,226, 0.95);
+    position: absolute;
+    z-index: -2;
+    -webkit-clip-path: polygon(0 47%, 0% 100%, 69% 100%);
+    clip-path: polygon(0 47%, 0% 100%, 69% 100%);
+}
+
+.Header .Container {
+    padding: 100px 0 60px 0;
+}
+
+.Header .Container img {    
+    float: right;
+    max-width: 670px;
+}
+
+.Header .Container .layout {
+    margin-top: 40px;
+    width: auto;
+    height: 100%;
+}
+
+.Header .Container .layout h1 {
+    margin: 0;
+    font-size: 2.15em;
+}
+
+.Header .Container .layout h4 {
+    margin: 15px 0;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+.Header .Container .layout button {
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #6dcfff;
+    background-color: #00acff;
+    color: #fff;
+    font-size: 1em;
+}
+
+.Header .Container .layout button:hover {
+    border: 1px solid #808080;
+    background-color: #808080;
+}
+
+/* Content */
+.Content .Reatures {
+    display: block;
+    width: 100%;
+    margin-bottom: 120px;
+    font-family: Lato,"Helvetica Neue",sans-serif;
+}
+
+
+.Content .Reatures div {
+    max-width: 32%;
+    margin: 50px 60px 0 0;
+    float: right;
+}
+
+.Content .Reatures div h1 {
+    font-size: 1.9em;
+    color: #23616d;
+}
+
+.Content .Reatures div p {
+    font-size: 1.25em;
+    font-weight: 100;
+    color: #7aa1b9;
+}
+
+.Content .Reatures div button {
+    padding: 12px 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 7px 1px #e4e4e4;
+    color: #50d785;
+    font-size: 1em;
+}
+
+.Content .Reatures div button:hover {
+    box-shadow: 0 0 12px 2px #e4e4e4;
+}
+
+.Content .Reatures img {
+    max-width: 52%;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 0 30px 1px #ccecf2;
+}
+
+.Content .Two div {
+    float: left;
+    margin: 50px 0 0 70px;
+}
+
+.Content .Two div button {
+    color: #f6cb8a;
+}
+
+.Content .Two img {
+    float: right;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.Content .Three div button {
+    color: #f9494c;
+}
+
+.Content .Download {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255,255,255, 0.7);
+    text-align: center;
+    position: relative;
+}
+
+.Content .Download .ParallelogramOne {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216,216,216, 0.55);
+    position: absolute;
+    z-index: -1;
+    -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.Content .Download .ParallelogramTwo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216,216,216, 0.55);
+    position: absolute;
+    z-index: -1;
+    -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+}
+
+.Content .Download .Container {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 158px 0;
+}
+
+.Content .Download .Container h3 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 100;
+    color: #355067;
+}
+
+.Content .Download .Container h1 {
+    margin: 25px 0;
+    font-size: 3.3em;
+    font-weight: 500;
+    color: #1f303f;
+}
+
+.Content .Download .Container p {
+    margin: 25px 0;
+    font-size: 1.2em;
+    color: #436888;
+}
+
+.Content .Download .Container button {
+    padding: 10px 45px;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #355067;
+    background-color: #fff;
+    color: #2C2C46;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.Content .Download .Container button:hover {
+    border: 1px solid #40c6e0;
+    background-color: #40c6e0;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* footer */
+.Footer {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.Footer .Container {
+    padding: 20px 0;
+    font-size: 0.875em;
+    color: #777;
+}
+
+.Footer .Container span {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #303030;
 }
