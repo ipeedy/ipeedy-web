@@ -46,6 +46,7 @@
 .Navbar .Container .NavbarRight ul {
     margin: 0;
     padding: 11.5px 0;
+    font-family: "Quicksand-Medium";
 }
 
 .Navbar .Container .NavbarRight ul li {
@@ -115,8 +116,8 @@
 
 .Header .Container .layout h4 {
     margin: 15px 0;
-    font-size: 1.15em;
-    font-weight: 500;
+    font-size: 1.1em;
+    font-family: "Quicksand-Regular";
 }
 
 .Header .Container .layout button {
@@ -127,6 +128,7 @@
     background-color: #00acff;
     color: #fff;
     font-size: 1em;
+    font-family: "Quicksand-Regular";
 }
 
 .Header .Container .layout button:hover {
@@ -139,7 +141,6 @@
     display: block;
     width: 100%;
     margin-bottom: 120px;
-    font-family: Lato,"Helvetica Neue",sans-serif;
 }
 
 
@@ -156,7 +157,7 @@
 
 .Content .Reatures div p {
     font-size: 1.25em;
-    font-weight: 100;
+    font-family: "Quicksand-Regular";
     color: #7aa1b9;
 }
 
@@ -169,6 +170,7 @@
     box-shadow: 0 0 7px 1px #e4e4e4;
     color: #50d785;
     font-size: 1em;
+    font-family: "Quicksand-Medium";
 }
 
 .Content .Reatures div button:hover {
@@ -236,21 +238,24 @@
 .Content .Download .Container h3 {
     margin: 0;
     font-size: 3em;
-    font-weight: 100;
+    font-family: "Quicksand-Regular";
+    font-size: 600;
     color: #355067;
 }
 
 .Content .Download .Container h1 {
     margin: 25px 0;
     font-size: 3.3em;
-    font-weight: 500;
-    color: #1f303f;
+    font-weight: 100;
+    color: #355067;
 }
 
 .Content .Download .Container p {
     margin: 25px 0;
     font-size: 1.2em;
     color: #436888;
+    font-family: "Quicksand-Light";
+    font-weight: 600;
 }
 
 .Content .Download .Container button {
@@ -259,7 +264,7 @@
     outline: 0;
     border: 1px solid #355067;
     background-color: #fff;
-    color: #2C2C46;
+    color: #355067;
     font-size: 1.3em;
     font-weight: 500;
 }
@@ -289,4 +294,25 @@
     font-size: 1.1em;
     font-weight: 600;
     color: #303030;
+}
+
+
+@font-face {
+  font-family: Quicksand-Light;
+  src: url(fonts/Quicksand/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url(fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url(fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url(fonts/Quicksand/Quicksand-Bold.ttf);
 }
