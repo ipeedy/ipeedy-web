@@ -34,8 +34,8 @@ class App extends Component {
             <img src={sayHello} alt=""/>
             <div className="layout">
               <h1>Ipeedy</h1>
+              <h3>Market for the people, by the people.</h3>
               <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-              <h4>Lorem ipsum dolor sit amet.</h4>
               <button>Learn more</button>
             </div>
           </div>
@@ -74,7 +74,7 @@ class App extends Component {
               <h3>Ipeedy</h3>
               <h1>Lorem ipsum dolor sit amet.</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eveniet reiciendis nostrum nesciunt sapiente.</p>
-              <button>Start trial</button>
+              <button>Add to <span>Ipeedy</span></button>
             </div>
           </div>
         </div>
