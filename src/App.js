@@ -17,10 +17,10 @@ class App extends Component {
             </div>
             <div className="NavbarRight">
               <ul className="ClearFloat">
-                <li>Reatures</li>
-                <li>Blog</li>
-                <li>Help</li>
-                <li className="Login">Login</li>
+                <li><a href="#">Reatures</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li className="Login"><a href="#">Login</a></li>
               </ul>
             </div>
           </div>

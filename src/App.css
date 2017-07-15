@@ -52,16 +52,32 @@
 .Navbar .Container .NavbarRight ul li {
     float: left;
     list-style-type: none;
-    font-size: 1.1em;
-    font-weight: 500;
     margin-left: 30px;
-    letter-spacing: 0.4px;
 }
 
 .Navbar .Container .NavbarRight ul .Login {
     margin-left: 55px;
+}
+
+.Navbar .Container .NavbarRight ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #fff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; 
+}
+
+.Navbar .Container .NavbarRight ul .Login a {
     font-weight: 600;
     font-size: 1.2em;
+}
+
+.Navbar .Container .NavbarRight ul li a:hover {
+    color: #b3e7f1; 
+    text-shadow: 2px 1px #fff;
 }
 
 /* Header */
