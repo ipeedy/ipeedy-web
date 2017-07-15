@@ -172,10 +172,17 @@
 .Content .Reatures div p {
     font-size: 1.25em;
     font-family: "Quicksand-Regular";
-    color: #7aa1b9;
+    color: #246572;
+    letter-spacing: -0.015em;
 }
 
-.Content .Reatures div button {
+.Content .Reatures div span {
+    font-family: "Quicksand-Regular";
+    font-weight: 600;
+    color: #9cb9cc;
+}
+
+/* .Content .Reatures div button {
     margin-top: 3px;
     padding: 12px 25px;
     outline: none;
@@ -197,7 +204,7 @@
     box-shadow: 0 0 17px 2px #e4e4e4;
     padding: 15px 45px 15px 30px;
     font-size: 1.1em;
-}
+} */
 
 .Content .Reatures img {
     max-width: 52%;

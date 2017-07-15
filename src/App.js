@@ -48,7 +48,7 @@ class App extends Component {
             <div>
               <h1>LIVE MODERATED TESTING</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae voluptatum accusantium aliquam ipsum debitis aut, recusandae molestiae, nihil praesentium, numquam earum corporis magnam suscipit pariatur fuga placeat beatae, architecto.</p>
-              <button>See how Live testing works</button>
+              <span><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eos iste veritatis animi, enim quisquam sequi esse in optio?</em></span>
             </div>
           </div>
           <div className="Reatures Two ClearFloat">
@@ -56,7 +56,7 @@ class App extends Component {
             <div>
               <h1>LIVE MODERATED TESTING</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae voluptatum accusantium aliquam ipsum debitis aut, recusandae molestiae, nihil praesentium, numquam earum corporis magnam suscipit pariatur fuga placeat beatae, architecto.</p>
-              <button>See how Self-tests work</button>
+              <span><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eos iste veritatis animi, enim quisquam sequi esse in optio?</em></span>
             </div>
           </div>
           <div className="Reatures Three ClearFloat">
@@ -64,7 +64,7 @@ class App extends Component {
             <div>
               <h1>LIVE MODERATED TESTING</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae voluptatum accusantium aliquam ipsum debitis aut, recusandae molestiae, nihil praesentium, numquam earum corporis magnam suscipit pariatur fuga placeat beatae, architecto.</p>
-              <button>See how in-person testing works</button>
+              <span><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eos iste veritatis animi, enim quisquam sequi esse in optio?</em></span>
             </div>
           </div>
           <div className="Download">
