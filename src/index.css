@@ -1,27 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  border:  0;
-  font-family: "Quicksand-Bold", Quicksand-Medium, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-size: 100%;
-}
-
-@font-face {
-  font-family: Quicksand-Light;
-  src: url(fonts/Quicksand/Quicksand-Light.ttf);
-}
-
-@font-face {
-  font-family: Quicksand-Regular;
-  src: url(fonts/Quicksand/Quicksand-Regular.ttf);
-}
-
-@font-face {
-  font-family: Quicksand-Medium;
-  src: url(fonts/Quicksand/Quicksand-Medium.ttf);
-}
-
-@font-face {
-  font-family: Quicksand-Bold;
-  src: url(fonts/Quicksand/Quicksand-Bold.ttf);
 }

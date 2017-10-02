@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import Main from './components/Main.js';
-import Features from './components/Features.js';
-import Help from './components/Help.js';
-import Blog from './components/Blog.js';
+import Main from './JS/Main.js';
+import Features from './JS/Features.js';
+import About from './JS/About.js';
+import Help from './JS/Help.js';
+import Login from './JS/Login.js';
 
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-          <Main>
-            <Switch>
-              <Route exact path='/' component={Features} /> {/* material-ui */}
-              <Route path='/help' component={Help} />
-              <Route path='/blog' component={Blog} />
-            </Switch>
-          </Main>
-      </BrowserRouter>
-    );
-  }
+    render() {
+        return (
+			<BrowserRouter>
+				<Main>
+					<Switch>
+						<Route exact path='/' component={Features} />
+						<Route path='/about' component={About} />
+						<Route path='/help' component={Help} />
+						<Route path='/login' component={Login} />
+					</Switch>
+				</Main>
+			</BrowserRouter>
+    	);
+  	}
 }
 
 export default App;
