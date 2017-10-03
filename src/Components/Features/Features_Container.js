@@ -1,12 +1,12 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 
-import jeffSheldon from '../img/jeff-sheldon-2556.jpg';
-import eatersCollective from '../img/eaters-collective-129481.jpg';
-import clemOnoJeghuo from '../img/clem-onojeghuo-174739.jpg';
+import jeffSheldon from '../../img/jeff-sheldon-2556.jpg';
+import eatersCollective from '../../img/eaters-collective-129481.jpg';
+import clemOnoJeghuo from '../../img/clem-onojeghuo-174739.jpg';
 
-import Quicksand from '../fonts/Quicksand/Quicksand-Bold.ttf';
-import QuicksandRegular from '../fonts/Quicksand/Quicksand-Regular.ttf';
+import Quicksand from '../../fonts/Quicksand/Quicksand-Bold.ttf';
+import QuicksandRegular from '../../fonts/Quicksand/Quicksand-Regular.ttf';
 
 class Container extends React.Component {
     render() {

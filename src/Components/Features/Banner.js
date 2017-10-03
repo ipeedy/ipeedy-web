@@ -1,13 +1,14 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 
-import LogoOutline from '../img/branding/Logo_Outline.png';
-import Pattern from '../img/branding/Pattern.png';
-import MinkMingle from '../img/Android.png';
-import Button from '../Components/Button_Banner.js';
+import LogoOutline from '../../img/branding/Logo_Outline.png';
+import Pattern from '../../img/branding/Pattern.png';
+import MinkMingle from '../../img/Android.png';
 
-import Quicksand from '../fonts/Quicksand/Quicksand-Medium.ttf';
-import QuicksandRegular from '../fonts/Quicksand/Quicksand-Regular.ttf';
+import Button from '../../Components/Features/Button_Banner.js';
+
+import Quicksand from '../../fonts/Quicksand/Quicksand-Medium.ttf';
+import QuicksandRegular from '../../fonts/Quicksand/Quicksand-Regular.ttf';
 
 class Banner extends React.Component {
     render() {

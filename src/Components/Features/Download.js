@@ -1,10 +1,10 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 
-import Quicksand from '../fonts/Quicksand/Quicksand-Medium.ttf';
-import Button from '../Components/Button_DL.js';
-import PlayStore from '../img/play-store.png';
-import Appstore from '../img/appstore.png';
+import Quicksand from '../../fonts/Quicksand/Quicksand-Medium.ttf';
+import Button from '../../Components/Features/Button_DL.js';
+import PlayStore from '../../img/play-store.png';
+import Appstore from '../../img/appstore.png';
 
 class Download extends React.Component {
     render() {

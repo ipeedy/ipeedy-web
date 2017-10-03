@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Banner from '../Components/Banner.js';
-import Container from '../Components/Features_Container.js';
-import Download from '../Components/Download.js';
-import Footer from '../Components/Footer.js';
+import Banner from '../Components/Features/Banner.js';
+import Container from '../Components/Features/Features_Container.js';
+import Download from '../Components/Features/Download.js';
+import Footer from '../Components/Features/Footer.js';
 
 class Features extends React.Component {
     render() {
