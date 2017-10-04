@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styled, { injectGlobal } from 'styled-components';
 
 import LogoText from '../img/branding/Logo_Text.png';
@@ -10,12 +10,12 @@ class Navbar extends React.Component {
         return (
             <Div>
                 <Layout>
-                    <Link to="/"><Logo src={LogoText} /></Link>
+                    <NavLink to="/"><Logo src={LogoText} /></NavLink>
                     <Button>Become a Shipper</Button>
                     <Tabs>
-                        <Link style={styles.text} to="/about"><Item>About</Item></Link>
-                        <Link style={styles.text} to="/help"><Item>Help</Item></Link>
-                        <Link style={styles.text} to="/login"><Item>Login</Item></Link>
+                        <NavLink style={styles.text} to="/about"><Item>About</Item></NavLink>
+                        <NavLink style={styles.text} to="/help/seller"><Item>Help</Item></NavLink>
+                        <NavLink style={styles.text} to="/login"><Item>Login</Item></NavLink>
                     </Tabs>
                 </Layout>
             </Div>
