@@ -23,7 +23,7 @@ const Div = styled.div`
 
 const Layout = styled.div`
     margin-right: 8%;
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 0.875em;
     color: #777;
 `;

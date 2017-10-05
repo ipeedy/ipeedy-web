@@ -58,9 +58,10 @@ const styles = {
 };
 
 const Div = styled.div`
-    width: 25%;
-    height: 600px;
+    width: 20%;
+    height: 480px;
     float: left;
+    background-color: #fafafa;
 `;
 
 const Layout = styled.div`
