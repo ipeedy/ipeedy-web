@@ -42,6 +42,7 @@ const Div = styled.div`
     display: block;
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #fafafa;
     background-color: #fff;
     font-family: Quicksand;
     z-index: 1000;
@@ -100,6 +101,10 @@ const Button = styled.button`
     font-size: 0.8em;
     font-weight: 900;
     font-family: Quicksand;
+    &:hover {
+        background-color: #364a84;
+        color: #fff;
+    }
 `;
 
 export default Navbar;

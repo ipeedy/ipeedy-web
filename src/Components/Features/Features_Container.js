@@ -40,11 +40,11 @@ class Container extends React.Component {
                             corporis magnam suscipit pariatur fuga placeat beatae, 
                             architecto.
                         </Paragraphs2>
-                        <Span2><em>
+                        <Span><em>
                             Lorem ipsum dolor sit amet, consectetur adipisicing 
                             elit. Adipisci eos iste veritatis animi, enim quisquam sequi 
-                            esse in optio?</em>
-                        </Span2>
+                            esse ?</em>
+                        </Span>
                     </ContentF>
                     <Clear />
                 </Box>
@@ -59,10 +59,10 @@ class Container extends React.Component {
                             corporis magnam suscipit pariatur fuga placeat beatae, 
                             architecto.
                         </Paragraphs3>
-                        <Span3><em>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                        <Span><em>Lorem ipsum dolor sit amet, consectetur adipisicing 
                             elit. Adipisci eos iste veritatis animi, enim quisquam sequi 
                             esse in optio?</em>
-                        </Span3>
+                        </Span>
                     </Content>
                 </Box>
             </div>
@@ -104,7 +104,7 @@ const Img = styled.img`
     max-width: 52%;
     max-height: 470px;
     border-radius: 0px 15px 15px 0px;
-    box-shadow: 0 0 30px 1px #ca9cfc;
+    box-shadow: 0 2px 8px 1px #ca9cfc;
 `;
 
 const Content = styled.div`
@@ -117,18 +117,19 @@ const ImgF = styled.img`
     float: right;
     max-width: 52%;
     max-height: 470px;
-    box-shadow: 0 0 30px 1px #d29cfc;
+    box-shadow: 0 2px 8px 1px #d29cfc;
     border-radius: 15px 0px 0px 15px;
 `;
 
 const ContentF = styled.div`
+    text-align: right;
     max-width: 32%;
     float: left;
     margin: 4% 0 0 9%;
 `;
 
 const Img3 = Img.extend`
-    box-shadow: 0 0 30px 1px #ffb4e4;
+    box-shadow: 0 2px 8px 1px #ffb4e4;
 `;
 
 const Header = styled.h1`
@@ -145,9 +146,10 @@ const Paragraphs = styled.p`
 `;
 
 const Span = styled.span`
+    font-size: 0.95em;
     font-family: QuicksandRegular;
     font-weight: 600;
-    color: #9b43ce;
+    color: #a7a1aa;
 `;
 
 const Header2 = Header.extend`
@@ -158,10 +160,6 @@ const Paragraphs2 = Paragraphs.extend`
     color: #c75db8;
 `;
 
-const Span2 = Span.extend`
-    color: #d56dc6;
-`;
-
 const Header3 = Header.extend`
     color: #e4209f;
 `;
@@ -170,8 +168,5 @@ const Paragraphs3 = Paragraphs.extend`
     color: #e737a9;
 `;
 
-const Span3 = Span.extend`
-    color: #f565c2;
-`;
 
 export default Container;

@@ -19,19 +19,20 @@ const Div = styled.div`
     width: 100%;
     display: block;
     text-align: right;
+    background-color: #dce6ff;
 `;
 
 const Layout = styled.div`
     margin-right: 8%;
-    padding: 15px 0;
-    font-size: 0.875em;
-    color: #777;
+    padding: 20px 0;
+    font-size: 0.9em;
+    color: #7b5e86;
 `;
 
 const Span = styled.span`
     font-size: 1.1em;
     font-weight: 600;
-    color: #303030;
+    color: #410f4b;
 `;
 
 export default Footer;

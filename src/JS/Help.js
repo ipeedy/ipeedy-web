@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import Search from '../Components/Help/Search.js';
+import MainSearch from '../Components/Help/Main_Search.js';
 import SideNav from '../Components/Help/Side_Nav.js';
 import Eaters from '../Components/Help/Item_Eaters.js';
 import Partners from '../Components/Help/Item_Partners.js';
@@ -14,7 +14,7 @@ class Help extends React.Component {
     render() {
         return (
             <div>
-                <Search />
+                <MainSearch />
                 <BrowserRouter>
                     <Layout>
                         <SideNav />

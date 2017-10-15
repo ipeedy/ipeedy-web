@@ -52,7 +52,7 @@ const Headers = styled.h1`
     max-width: 960px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0 20px 0;
     font-size: 2.3em;
     color: #b5187a;
 `;

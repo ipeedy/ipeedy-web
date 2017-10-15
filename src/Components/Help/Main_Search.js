@@ -8,7 +8,7 @@ import QuicksandLight from '../../fonts/Quicksand/Quicksand-Light.ttf';
 
 import Input from './Input_Search.js';
 
-class Search extends React.Component {
+class MainSearch extends React.Component {
     render() {
         return (
             <Div>
@@ -36,10 +36,10 @@ injectGlobal`
 const Div = styled.div`
     width: 100%;
     height: 350px;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: red;
     background-image: url(${Pattern});
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     display: flex;
     align-items: center;
 `;
@@ -61,4 +61,4 @@ const H2 = styled.h2`
 const H3 = H2.extend`
     font-weight: 500;
 `;
-export default Search;
+export default MainSearch;

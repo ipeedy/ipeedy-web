@@ -61,7 +61,7 @@ const Div = styled.div`
     width: 20%;
     height: 480px;
     float: left;
-    background-color: #fafafa;
+    background-color: #fbfbfb;
 `;
 
 const Layout = styled.div`

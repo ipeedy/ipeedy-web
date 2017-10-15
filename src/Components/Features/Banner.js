@@ -45,7 +45,7 @@ const Div = styled.div`
     width: 100%;
     height: 550px;
     background-image: url(${Pattern});
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     font-family: Quicksand;
 `;
 
@@ -59,6 +59,7 @@ const Introduction = styled.div`
 const LayoutText = styled.div`
     position: absolute;
     width: 50%;
+    height: 340px;
     left: 17%;
     bottom: 15%;
 `;
@@ -84,7 +85,7 @@ const OutlineImg = styled.img`
 const Headers = styled.h1`
     font-size: 3.5em;
     font-family: Quicksand;
-    color: #4f1d6d;
+    color: #69298f;
 `;
 
 const Text = styled.p`
