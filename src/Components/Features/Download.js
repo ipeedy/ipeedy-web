@@ -36,15 +36,8 @@ injectGlobal`
 
 const Div = styled.div`
     width: 100%;
-    border-top: 1px solid #dadada;
     height: 400px;
-    background-image: url(https://dmj7x5kusv40q.cloudfront.net/static-assets/wave-left.png),
-                      url(https://dmj7x5kusv40q.cloudfront.net/static-assets/wave-right.png),
-                      -webkit-linear-gradient(224deg, #d6e1ff 0%, #a5bcff 100%);
-    background-repeat: repeat-x;
-    background-position: left bottom, right bottom, left top;
-    background-size: 105%, 105%, cover;
-    overflow: hidden;
+    background-color: #f6f6f6;
     font-family: Quicksand;
 `;
 
